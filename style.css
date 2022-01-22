@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(22, 30, 54);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.attribution { 
+    position: relative;
+    top: 300px;
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    top: 100px;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow:
+        0px 25px 4px 15px #000112
+    ;
+    background-color: darkslategray;
+}
+
+.nft-title {
+    position: relative;
+    top: 300px;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.nft-description {
+    position: relative;
+    top: 350px;
+    left: 20px;
+    color: rgb(108, 106, 129);
+}
