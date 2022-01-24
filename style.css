@@ -25,7 +25,7 @@ body {
     height: 600px;
     border-radius: 10px;
     box-shadow:
-        0px 25px 4px 15px #000112
+        0px 25px 4px 15px #17182b
     ;
     background-color: rgb(34, 43, 71);
 }
@@ -56,14 +56,14 @@ body {
 .nft-auction-time {
     position: relative;
     top: 80px;
-    left: 120px;
+    left: 100px;
     color: rgb(108, 106, 129);
 }
 
 .nft-creator {
     position: relative;
     top: 100px;
-    left: 20px;
+    left: 25px;
     color: rgb(108, 106, 129);
 }
 
@@ -73,4 +73,32 @@ body {
     left: 25px;
     border-radius: 10px;
     max-height: 250px;
+}
+
+.diamond {
+    position: relative;
+    top: 83px;
+    left: 20px;
+}
+
+.clock {
+    position: relative;
+    top: 83px;
+    left: 100px;
+}
+
+.profile {
+    position: relative;
+    top: 115px;
+    left: 20px;
+    max-height: 40px;
+}
+
+hr {
+    position: relative;
+    top: 90px;
+    height: 1px;
+    border: none;
+    background-color: rgb(110, 110, 110);
+    max-width: 90%;
 }
