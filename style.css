@@ -5,7 +5,7 @@ body {
 
 .attribution { 
     position: relative;
-    top: 300px;
+    top: 170px;
     font-size: 11px; text-align: center;
 }
 
@@ -22,7 +22,7 @@ body {
     position: relative;
     top: 100px;
     width: 300px;
-    height: 600px;
+    height: 550px;
     border-radius: 10px;
     box-shadow:
         0px 25px 4px 15px #17182b
@@ -33,7 +33,7 @@ body {
 .nft-title {
     position: relative;
     top: 50px;
-    left: 20px;
+    left: 25px;
     color: white;
     font-weight: bold;
 }
@@ -41,14 +41,14 @@ body {
 .nft-description {
     position: relative;
     top: 60px;
-    left: 20px;
+    left: 25px;
     color: rgb(108, 106, 129);
 }
 
 .nft-price {
     position: relative;
     top: 80px;
-    left: 20px;
+    left: 25px;
     color: turquoise;
     font-weight: bold;
 }
@@ -56,7 +56,7 @@ body {
 .nft-auction-time {
     position: relative;
     top: 80px;
-    left: 100px;
+    left: 90px;
     color: rgb(108, 106, 129);
 }
 
@@ -67,9 +67,13 @@ body {
     color: rgb(108, 106, 129);
 }
 
+.name {
+    color: white;
+}
+
 .equilibrium {
     position: relative;
-    top: 20px;
+    top: 25px;
     left: 25px;
     border-radius: 10px;
     max-height: 250px;
@@ -78,13 +82,13 @@ body {
 .diamond {
     position: relative;
     top: 83px;
-    left: 20px;
+    left: 25px;
 }
 
 .clock {
     position: relative;
     top: 83px;
-    left: 100px;
+    left: 90px;
 }
 
 .profile {
@@ -100,5 +104,5 @@ hr {
     height: 1px;
     border: none;
     background-color: rgb(110, 110, 110);
-    max-width: 90%;
+    max-width: 85%;
 }
