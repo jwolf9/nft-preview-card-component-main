@@ -79,6 +79,18 @@ body {
     max-height: 250px;
 }
 
+.mask {
+    background-color: turquoise;
+    opacity: 0.5;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+
 .diamond {
     position: relative;
     top: 83px;
