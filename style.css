@@ -36,6 +36,7 @@ body {
     left: 25px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .nft-description {
@@ -69,14 +70,22 @@ body {
 
 .name {
     color: white;
+    cursor: pointer;
 }
 
-.equilibrium {
+.container {
     position: relative;
     top: 25px;
     left: 25px;
     border-radius: 10px;
-    max-height: 250px;
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.equilibrium {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .mask {
@@ -88,6 +97,14 @@ body {
     border-radius: 10px;
     width: 250px;
     height: 250px;
+    display: none;
+}
+
+.eye {
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    display: none;
 }
 
 
