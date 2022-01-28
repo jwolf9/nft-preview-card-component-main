@@ -44,7 +44,7 @@ body {
     color: rgb(108, 106, 129);
 }
 
-.logistics {
+.logistics-line {
     position: relative;
     top: 400px;
 }
@@ -72,9 +72,14 @@ body {
     left: 185px;
 }
 
+.creator-line {
+    position: relative;
+    top: 476px;
+}
+
 .nft-creator {
     position: absolute;
-    top: 485px;
+    top: 9px;
     left: 65px;
     color: rgb(108, 106, 129);
 }
@@ -86,7 +91,6 @@ body {
 
 .profile {
     position: absolute;
-    top: 476px;
     left: 20px;
     max-height: 35px;
     border: 1px solid white;
