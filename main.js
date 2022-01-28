@@ -27,5 +27,5 @@ function highlight(e) {
 }
 
 function unhighlight(e) {
-    e.target.style.color = 'white'
+    e.target.style.color = 'white';
 }
