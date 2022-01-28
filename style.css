@@ -41,7 +41,6 @@ body {
     position: absolute;
     top: 340px;
     left: 25px;
-    color: rgb(108, 106, 129);
 }
 
 .logistics-line {
@@ -64,7 +63,6 @@ body {
 .nft-auction-time {
     position: absolute;
     left: 210px;
-    color: rgb(108, 106, 129);
 }
 
 .clock {
@@ -81,7 +79,6 @@ body {
     position: absolute;
     top: 9px;
     left: 65px;
-    color: rgb(108, 106, 129);
 }
 
 .name {
@@ -139,4 +136,8 @@ hr {
     height: 1px;
     border: none;
     background-color: rgb(110, 110, 110);
+}
+
+.nft-creator, .nft-auction-time, .nft-description {
+    color: rgb(108, 106, 129);
 }
