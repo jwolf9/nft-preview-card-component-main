@@ -44,31 +44,31 @@ body {
     color: rgb(108, 106, 129);
 }
 
+.logistics {
+    position: relative;
+    top: 400px;
+}
+
 .nft-price {
     position: absolute;
-    top: 400px;
     left: 45px;
     color: turquoise;
     font-weight: bold;
 }
 
-
 .diamond {
     position: absolute;
-    top: 400px;
     left: 25px;
 }
 
 .nft-auction-time {
     position: absolute;
-    top: 400px;
     left: 210px;
     color: rgb(108, 106, 129);
 }
 
 .clock {
     position: absolute;
-    top: 400px;
     left: 185px;
 }
 
