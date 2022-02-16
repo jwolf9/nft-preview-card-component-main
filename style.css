@@ -107,15 +107,11 @@ body {
 .equilibrium {
     width: 100%;
     border-radius: 10px;
-    display: none;
 }
 
-.mask {
-    background-color: turquoise;
-}
-
-.mask, .eye-container {
+.background {
     opacity: 0;
+    background-color: turquoise;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -124,21 +120,21 @@ body {
     height: 250px;
 }
 
-.mask:hover {
+.mask:hover .background {
     opacity: 0.5;
     transition: 1s;
 }
 
-.eye-container:hover {
-    background-color: transparent;
-    opacity: 1;
-    transition: 1s;
-}
-
 .eye {
+    opacity: 0;
     position: absolute;
     top: 100px;
     left: 100px;
+}
+
+.mask:hover .eye {
+    opacity: 1;
+    transition: 1s;
 }
 
 .eye:hover {
