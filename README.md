@@ -41,7 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://jwolf9.github.io/nft-preview-card-component-main/)
+- [Live Site](https://jwolf9.github.io/nft-preview-card-component-main/)
 
 ## My process
 
