@@ -1,6 +1,11 @@
 body {
     background-color: rgb(22, 30, 54);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .attribution { 
@@ -11,14 +16,6 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
-
-.outer {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .card {
