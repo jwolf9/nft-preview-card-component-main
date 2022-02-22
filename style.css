@@ -29,10 +29,9 @@ body {
 
 .nft-title {
     position: absolute;
-    top: 300px;
+    top: 280px;
     left: 25px;
     color: white;
-    font-weight: bold;
     cursor: pointer;
 }
 
