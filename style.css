@@ -37,7 +37,7 @@ body {
 
 .nft-description {
     position: absolute;
-    top: 340px;
+    top: 325px;
     left: 25px;
 }
 
@@ -70,12 +70,11 @@ body {
 
 .creator-line {
     position: relative;
-    top: 476px;
+    top: 470px;
 }
 
 .nft-creator {
     position: absolute;
-    top: 9px;
     left: 65px;
 }
 
@@ -87,6 +86,7 @@ body {
 .profile {
     position: absolute;
     left: 20px;
+    top: 5px;
     max-height: 35px;
     border: 1px solid white;
     border-radius: 50%;
