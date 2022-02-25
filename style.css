@@ -92,7 +92,7 @@ body {
     position: absolute;
     left: 20px;
     top: 5px;
-    max-height: 35px;
+    max-width: 35px;
     border: 1px solid white;
     border-radius: 50%;
 }
@@ -101,14 +101,10 @@ body {
     position: absolute;
     top: 25px;
     left: 25px;
-    border-radius: 10px;
-    height: 250px;
-    width: 250px;
-    cursor: pointer;
 }
 
 .equilibrium {
-    width: 100%;
+    max-width: 250px;
     border-radius: 10px;
 }
 
@@ -126,6 +122,7 @@ body {
 .mask:hover .background {
     opacity: 0.5;
     transition: 1s;
+    cursor: pointer;
 }
 
 .eye {
