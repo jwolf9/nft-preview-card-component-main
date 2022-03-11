@@ -107,7 +107,7 @@ I want to get more familiar with using flexbox and how to use max-width to make 
 ### Useful resources
 
 - [Intro to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [A blog for how to design shadows](https://www.example.com)
+- [A blog for how to design shadows](https://www.joshwcomeau.com/css/designing-shadows/)
 - [guide to rem vs px](https://engageinteractive.co.uk/blog/em-vs-rem-vs-px)
 
 ## Author
